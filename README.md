@@ -6,17 +6,17 @@ Project objective:
 Model type: Regression
 Topic: Science
 ------------------------------------------------------------------------------------------
-Detailed Summary:
-# Superconductivity Critical Temperature Prediction
+# Detailed Summary:
+### Superconductivity Critical Temperature Prediction
 
 This capstone project applies machine learning techniques to predict the **critical temperature (Tc)** of superconductors based on material composition features. The dataset originates from a curated version of the **SuperCon database**, preprocessed and structured with 81 numeric descriptors for ML modeling.
 
-## Dataset
+#### Dataset
 - Source: SuperCon (NIMS, Japan), processed as 'train.csv' (81 features)
 - Target variable: 'critical_temp'
 - Features derived using atomic and elemental properties (e.g., atomic radius, valence, electronegativity)
 
-## Project Workflow
+#### Project Workflow
 - Data loading and inspection
 - Exploratory data analysis and preprocessing
 - Feature and target split
